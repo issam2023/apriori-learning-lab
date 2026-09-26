@@ -520,9 +520,17 @@ elif page == "3️⃣ Baskets":
         language="python"
     )
 
+    # Learning display: only baskets containing at least 5 products.
+    # The Apriori model still uses all transactions.
+    basket_ids_5plus = [
+        transaction_id
+        for transaction_id in basket_ids
+        if len(basket_series.loc[transaction_id]) >= 5
+    ]
+
     transaction = st.selectbox(
-        "Select a transaction to follow",
-        basket_ids
+        "Select a transaction to follow (minimum 5 products)",
+        basket_ids_5plus
     )
 
     original = clean_df[
