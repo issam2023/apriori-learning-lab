@@ -16,7 +16,7 @@ st.header("1. Raw Data")
 df = pd.read_csv("grocery_transactions.csv")
 
 st.write("Each row represents one item inside a transaction.")
-st.dataframe(df.head(20), use_container_width=True)
+st.dataframe(df.head(20), width='stretch')
 
 st.write("Rows:", len(df))
 st.write("Transactions:", df["transaction_id"].nunique())
@@ -35,7 +35,7 @@ st.code(
 )
 
 st.write("We remove extra spaces and convert item names to lowercase.")
-st.dataframe(clean_df.head(20), use_container_width=True)
+st.dataframe(clean_df.head(20), width='stretch')
 
 # --------------------------------------------------
 # 3. CREATE BASKETS
@@ -56,7 +56,7 @@ basket_df = pd.DataFrame({
 })
 
 st.write("Rows with the same transaction ID are grouped into one basket.")
-st.dataframe(basket_df.head(15), use_container_width=True)
+st.dataframe(basket_df.head(15), width='stretch')
 
 # --------------------------------------------------
 # 4. BOOLEAN MATRIX
@@ -75,7 +75,7 @@ display_matrix = basket_matrix.astype(int)
 display_matrix.index = basket_ids
 
 st.write("1 = item is present, 0 = item is absent.")
-st.dataframe(display_matrix.head(15), use_container_width=True)
+st.dataframe(display_matrix.head(15), width='stretch')
 
 # --------------------------------------------------
 # 5. APRIORI
@@ -116,7 +116,7 @@ show_itemsets = show_itemsets.sort_values(
 )
 
 st.subheader("Frequent Itemsets")
-st.dataframe(show_itemsets, use_container_width=True)
+st.dataframe(show_itemsets, width='stretch')
 
 # --------------------------------------------------
 # 6. TOP PAIRS
@@ -134,7 +134,7 @@ if not pairs.empty:
 
     st.dataframe(
         pairs[["pair", "support"]],
-        use_container_width=True
+        width='stretch'
     )
 
     chart_data = pairs[["pair", "support"]].set_index("pair")
@@ -180,7 +180,7 @@ if not frequent_itemsets.empty:
 
         st.dataframe(
             rules_display,
-            use_container_width=True
+            width='stretch'
         )
 
         st.info(
