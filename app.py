@@ -425,6 +425,12 @@ elif page == "1️⃣ Raw Data":
         "Each row represents one product inside a transaction."
     )
 
+    st.markdown("#### 🐍 Python Code")
+    st.code(
+        'df = pd.read_csv("grocery_transactions.csv")',
+        language="python"
+    )
+
     c1, c2 = st.columns(2)
 
     c1.metric("Rows", f"{len(df):,}")
@@ -506,6 +512,14 @@ elif page == "3️⃣ Baskets":
         "Rows with the same `transaction_id` are grouped together."
     )
 
+    st.markdown("#### 🐍 Python Code")
+    st.code(
+        """basket_series = clean_df.groupby("transaction_id")["item"].apply(
+    lambda items: sorted(set(items))
+)""",
+        language="python"
+    )
+
     transaction = st.selectbox(
         "Select a transaction to follow",
         basket_ids
@@ -558,6 +572,19 @@ elif page == "4️⃣ Boolean Matrix":
 
     st.write(
         "`TransactionEncoder` converts baskets into True/False values."
+    )
+
+    st.markdown("#### 🐍 Python Code")
+    st.code(
+        """te = TransactionEncoder()
+
+encoded = te.fit(baskets).transform(baskets)
+
+basket_matrix = pd.DataFrame(
+    encoded,
+    columns=te.columns_
+)""",
+        language="python"
     )
 
     transaction = st.selectbox(
@@ -672,6 +699,22 @@ elif page == "6️⃣ Frequent Itemsets":
         unsafe_allow_html=True
     )
 
+    st.write(
+        "We keep the item combinations found by Apriori and "
+        "sort them by support."
+    )
+
+    st.markdown("#### 🐍 Python Code")
+    st.code(
+        """display_frequent = frequent_itemsets.copy()
+
+display_frequent = display_frequent.sort_values(
+    "support",
+    ascending=False
+)""",
+        language="python"
+    )
+
     display_frequent = frequent_itemsets.copy()
 
     display_frequent["itemset"] = (
@@ -720,6 +763,25 @@ elif page == "7️⃣ Association Rules":
         '<span class="step-number">7</span>'
         '<span class="step-title">Association Rules</span>',
         unsafe_allow_html=True
+    )
+
+    st.write(
+        "Frequent itemsets are converted into directional rules."
+    )
+
+    st.markdown("#### 🐍 Python Code")
+    st.code(
+        """rules = association_rules(
+    frequent_itemsets,
+    metric="confidence",
+    min_threshold=0.10
+)
+
+rules = rules.sort_values(
+    ["lift", "confidence"],
+    ascending=False
+)""",
+        language="python"
     )
 
     if rules.empty:
@@ -789,6 +851,21 @@ elif page == "8️⃣ Recommendations":
     st.write(
         "Choose a product. The app searches the discovered rules "
         "for possible recommendations."
+    )
+
+    st.markdown("#### 🐍 Python Code")
+    st.code(
+        """matching = rules[
+    rules["antecedents"].apply(
+        lambda x: selected_product in x
+    )
+]
+
+matching = matching.sort_values(
+    ["lift", "confidence"],
+    ascending=False
+)""",
+        language="python"
     )
 
     products = sorted(clean_df["item"].unique())
