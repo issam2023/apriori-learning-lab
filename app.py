@@ -294,6 +294,22 @@ with st.sidebar:
         step=0.01
     )
 
+    min_confidence = st.slider(
+        "Minimum confidence",
+        min_value=0.10,
+        max_value=1.00,
+        value=0.30,
+        step=0.05
+    )
+
+    min_lift = st.slider(
+        "Minimum lift",
+        min_value=0.50,
+        max_value=5.00,
+        value=1.30,
+        step=0.10
+    )
+
 frequent_itemsets = apriori(
     basket_matrix,
     min_support=min_support,
@@ -316,8 +332,12 @@ if not frequent_itemsets.empty:
         rules = association_rules(
             frequent_itemsets,
             metric="confidence",
-            min_threshold=0.10
+            min_threshold=min_confidence
         )
+
+        rules = rules[
+            rules["lift"] >= min_lift
+        ].copy()
     except Exception:
         rules = pd.DataFrame()
 
@@ -779,11 +799,15 @@ elif page == "7️⃣ Association Rules":
 
     st.markdown("#### 🐍 Python Code")
     st.code(
-        """rules = association_rules(
+        f"""rules = association_rules(
     frequent_itemsets,
     metric="confidence",
-    min_threshold=0.10
+    min_threshold={min_confidence:.2f}
 )
+
+rules = rules[
+    rules["lift"] >= {min_lift:.2f}
+]
 
 rules = rules.sort_values(
     ["lift", "confidence"],
