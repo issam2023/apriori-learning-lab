@@ -276,7 +276,6 @@ st.markdown("### 🔄 Complete Learning Flow")
 
 st.image(
     "apriori_workflow.png",
-    caption="From Raw Data to Association Rules — Apriori Workflow",
     use_container_width=True
 )
 
