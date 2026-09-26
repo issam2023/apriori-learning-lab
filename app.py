@@ -244,13 +244,6 @@ with st.sidebar:
 
     st.divider()
 
-    st.markdown("### 👨‍🎓 Student")
-    st.write("**Abdelhafid Masmi**")
-    st.write("Vanier College")
-    st.write("DMP 2026")
-
-    st.divider()
-
     st.caption("Association Rule Mining")
     st.caption("Apriori Learning Lab")
 
@@ -281,42 +274,10 @@ September 25, 2026
 # ============================================================
 st.markdown("### 🔄 Complete Learning Flow")
 
-cols = st.columns(8)
-
-steps = [
-    ("📄", "Raw Data"),
-    ("🧹", "Clean"),
-    ("🛒", "Baskets"),
-    ("🔢", "Boolean"),
-    ("⚙️", "Apriori"),
-    ("📋", "Itemsets"),
-    ("🔗", "Rules"),
-    ("💡", "Recommend")
-]
-
-for col, (icon, name) in zip(cols, steps):
-    with col:
-        st.markdown(
-            f"""
-            <div style="
-                text-align:center;
-                padding:14px 5px;
-                border-radius:12px;
-                background:rgba(30,120,200,.13);
-                border:1px solid rgba(80,150,220,.30);
-                min-height:90px;">
-                <div style="font-size:27px">{icon}</div>
-                <b>{name}</b>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-st.markdown(
-    "<div style='text-align:center;font-size:25px;margin:8px'>"
-    "→ &nbsp; → &nbsp; → &nbsp; → &nbsp; → &nbsp; → &nbsp; →"
-    "</div>",
-    unsafe_allow_html=True
+st.image(
+    "apriori_workflow.png",
+    caption="From Raw Data to Association Rules — Apriori Workflow",
+    use_container_width=True
 )
 
 # ============================================================
@@ -924,7 +885,7 @@ st.markdown(
     f"""
     <div class="footer">
         <b>Association Rule Mining — Apriori Learning Lab</b><br>
-        Abdelhafid Masmi • Vanier College • DMP 2026<br><br>
+        Vanier College • DMP 2026<br><br>
         Dataset: grocery_transactions.csv •
         Rows: {len(df):,} •
         Transactions: {df['transaction_id'].nunique():,} •
