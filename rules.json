@@ -1,0 +1,1962 @@
+[
+    {
+        "antecedents":"baby formula, baby wipes",
+        "consequents":"diapers",
+        "support":0.0234627832,
+        "confidence":0.8285714286,
+        "lift":7.0385861561,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"baby formula, diapers",
+        "consequents":"baby wipes",
+        "support":0.0234627832,
+        "confidence":0.6373626374,
+        "lift":6.9103528051,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"baby wipes, diapers",
+        "consequents":"baby formula",
+        "support":0.0234627832,
+        "confidence":0.5132743363,
+        "lift":6.2196772514,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"beer, chocolate bar",
+        "consequents":"tortilla chips",
+        "support":0.0234627832,
+        "confidence":0.7435897436,
+        "lift":6.0465587045,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"beer, salsa",
+        "consequents":"tortilla chips",
+        "support":0.0392394822,
+        "confidence":0.723880597,
+        "lift":5.8862922231,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"beer, peanuts",
+        "consequents":"salsa",
+        "support":0.0295307443,
+        "confidence":0.6083333333,
+        "lift":5.8061776062,
+        "n_baskets":73
+    },
+    {
+        "antecedents":"peanuts, salsa",
+        "consequents":"beer",
+        "support":0.0295307443,
+        "confidence":0.8588235294,
+        "lift":5.8005785921,
+        "n_baskets":73
+    },
+    {
+        "antecedents":"paper towels, trash bags",
+        "consequents":"toilet paper",
+        "support":0.0222491909,
+        "confidence":0.7333333333,
+        "lift":5.7549206349,
+        "n_baskets":55
+    },
+    {
+        "antecedents":"peanuts, tortilla chips",
+        "consequents":"salsa",
+        "support":0.0238673139,
+        "confidence":0.6020408163,
+        "lift":5.7461192971,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"peanuts, salsa",
+        "consequents":"tortilla chips",
+        "support":0.0238673139,
+        "confidence":0.6941176471,
+        "lift":5.6442724458,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"bananas, berries",
+        "consequents":"yogurt",
+        "support":0.0384304207,
+        "confidence":0.7983193277,
+        "lift":5.6223515047,
+        "n_baskets":95
+    },
+    {
+        "antecedents":"berries, granola",
+        "consequents":"yogurt",
+        "support":0.0444983819,
+        "confidence":0.7971014493,
+        "lift":5.6137743094,
+        "n_baskets":110
+    },
+    {
+        "antecedents":"chocolate bar, tortilla chips",
+        "consequents":"beer",
+        "support":0.0234627832,
+        "confidence":0.8285714286,
+        "lift":5.5962529274,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"laundry detergent, paper towels",
+        "consequents":"toilet paper",
+        "support":0.0254854369,
+        "confidence":0.7078651685,
+        "lift":5.5550561798,
+        "n_baskets":63
+    },
+    {
+        "antecedents":"salsa, tortilla chips",
+        "consequents":"beer",
+        "support":0.0392394822,
+        "confidence":0.8220338983,
+        "lift":5.5520978049,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"avocado, berries",
+        "consequents":"yogurt",
+        "support":0.0279126214,
+        "confidence":0.7752808989,
+        "lift":5.4600979545,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"peanuts, tortilla chips",
+        "consequents":"beer",
+        "support":0.0319579288,
+        "confidence":0.806122449,
+        "lift":5.4446303111,
+        "n_baskets":79
+    },
+    {
+        "antecedents":"avocado, granola",
+        "consequents":"yogurt",
+        "support":0.0234627832,
+        "confidence":0.7631578947,
+        "lift":5.3747188484,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"lemon, olive oil",
+        "consequents":"salmon",
+        "support":0.0254854369,
+        "confidence":0.7,
+        "lift":5.3739130435,
+        "n_baskets":63
+    },
+    {
+        "antecedents":"beer, peanuts",
+        "consequents":"tortilla chips",
+        "support":0.0319579288,
+        "confidence":0.6583333333,
+        "lift":5.3532894737,
+        "n_baskets":79
+    },
+    {
+        "antecedents":"olive oil, salmon",
+        "consequents":"lemon",
+        "support":0.0254854369,
+        "confidence":0.5887850467,
+        "lift":5.3510170423,
+        "n_baskets":63
+    },
+    {
+        "antecedents":"beer, salsa",
+        "consequents":"peanuts",
+        "support":0.0295307443,
+        "confidence":0.5447761194,
+        "lift":5.3439943141,
+        "n_baskets":73
+    },
+    {
+        "antecedents":"paper towels, toilet paper",
+        "consequents":"laundry detergent",
+        "support":0.0254854369,
+        "confidence":0.5163934426,
+        "lift":5.318852459,
+        "n_baskets":63
+    },
+    {
+        "antecedents":"bananas, granola",
+        "consequents":"yogurt",
+        "support":0.0343851133,
+        "confidence":0.7522123894,
+        "lift":5.2976325543,
+        "n_baskets":85
+    },
+    {
+        "antecedents":"avocado, yogurt",
+        "consequents":"berries",
+        "support":0.0279126214,
+        "confidence":0.7113402062,
+        "lift":5.2964849087,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"berries, lettuce",
+        "consequents":"yogurt",
+        "support":0.0250809061,
+        "confidence":0.7469879518,
+        "lift":5.2608382247,
+        "n_baskets":62
+    },
+    {
+        "antecedents":"beer, tortilla chips",
+        "consequents":"salsa",
+        "support":0.0392394822,
+        "confidence":0.5418994413,
+        "lift":5.1721058648,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"lettuce, yogurt",
+        "consequents":"berries",
+        "support":0.0250809061,
+        "confidence":0.6888888889,
+        "lift":5.1293172691,
+        "n_baskets":62
+    },
+    {
+        "antecedents":"toilet paper, trash bags",
+        "consequents":"paper towels",
+        "support":0.0222491909,
+        "confidence":0.6470588235,
+        "lift":5.1266968326,
+        "n_baskets":55
+    },
+    {
+        "antecedents":"avocado, bananas",
+        "consequents":"yogurt",
+        "support":0.0214401294,
+        "confidence":0.7260273973,
+        "lift":5.1132185927,
+        "n_baskets":53
+    },
+    {
+        "antecedents":"bananas, yogurt",
+        "consequents":"berries",
+        "support":0.0384304207,
+        "confidence":0.6834532374,
+        "lift":5.088844587,
+        "n_baskets":95
+    },
+    {
+        "antecedents":"bananas, berries",
+        "consequents":"granola",
+        "support":0.0299352751,
+        "confidence":0.6218487395,
+        "lift":4.9587422066,
+        "n_baskets":74
+    },
+    {
+        "antecedents":"avocado, yogurt",
+        "consequents":"bananas",
+        "support":0.0214401294,
+        "confidence":0.5463917526,
+        "lift":4.9475472981,
+        "n_baskets":53
+    },
+    {
+        "antecedents":"parmesan, tomato sauce",
+        "consequents":"pasta",
+        "support":0.0622977346,
+        "confidence":0.8603351955,
+        "lift":4.9459269845,
+        "n_baskets":154
+    },
+    {
+        "antecedents":"paper towels, toilet paper",
+        "consequents":"trash bags",
+        "support":0.0222491909,
+        "confidence":0.4508196721,
+        "lift":4.9310895111,
+        "n_baskets":55
+    },
+    {
+        "antecedents":"salsa, tortilla chips",
+        "consequents":"peanuts",
+        "support":0.0238673139,
+        "confidence":0.5,
+        "lift":4.9047619048,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"bananas, yogurt",
+        "consequents":"granola",
+        "support":0.0343851133,
+        "confidence":0.6115107914,
+        "lift":4.8763054073,
+        "n_baskets":85
+    },
+    {
+        "antecedents":"bananas, granola",
+        "consequents":"berries",
+        "support":0.0299352751,
+        "confidence":0.6548672566,
+        "lift":4.8759995735,
+        "n_baskets":74
+    },
+    {
+        "antecedents":"berries, granola",
+        "consequents":"bananas",
+        "support":0.0299352751,
+        "confidence":0.5362318841,
+        "lift":4.8555502469,
+        "n_baskets":74
+    },
+    {
+        "antecedents":"granola, yogurt",
+        "consequents":"berries",
+        "support":0.0444983819,
+        "confidence":0.650887574,
+        "lift":4.8463677194,
+        "n_baskets":110
+    },
+    {
+        "antecedents":"berries, yogurt",
+        "consequents":"granola",
+        "support":0.0444983819,
+        "confidence":0.6077348066,
+        "lift":4.8461949742,
+        "n_baskets":110
+    },
+    {
+        "antecedents":"ground beef, parmesan",
+        "consequents":"pasta",
+        "support":0.0287216828,
+        "confidence":0.8352941176,
+        "lift":4.8019699042,
+        "n_baskets":71
+    },
+    {
+        "antecedents":"avocado, yogurt",
+        "consequents":"granola",
+        "support":0.0234627832,
+        "confidence":0.5979381443,
+        "lift":4.7680744929,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"olive oil, parmesan",
+        "consequents":"pasta",
+        "support":0.0311488673,
+        "confidence":0.8279569892,
+        "lift":4.7597899475,
+        "n_baskets":77
+    },
+    {
+        "antecedents":"berries, yogurt",
+        "consequents":"bananas",
+        "support":0.0384304207,
+        "confidence":0.5248618785,
+        "lift":4.7525954708,
+        "n_baskets":95
+    },
+    {
+        "antecedents":"coffee beans, croissant",
+        "consequents":"sugar",
+        "support":0.0275080906,
+        "confidence":0.544,
+        "lift":4.7518303887,
+        "n_baskets":68
+    },
+    {
+        "antecedents":"olive oil, pasta",
+        "consequents":"tomato sauce",
+        "support":0.0372168285,
+        "confidence":0.7731092437,
+        "lift":4.7305100258,
+        "n_baskets":92
+    },
+    {
+        "antecedents":"ground beef, tomato sauce",
+        "consequents":"pasta",
+        "support":0.033171521,
+        "confidence":0.82,
+        "lift":4.7140465116,
+        "n_baskets":82
+    },
+    {
+        "antecedents":"laundry detergent, toilet paper",
+        "consequents":"paper towels",
+        "support":0.0254854369,
+        "confidence":0.5943396226,
+        "lift":4.7089985486,
+        "n_baskets":63
+    },
+    {
+        "antecedents":"parmesan, pasta",
+        "consequents":"tomato sauce",
+        "support":0.0622977346,
+        "confidence":0.7623762376,
+        "lift":4.6648367807,
+        "n_baskets":154
+    },
+    {
+        "antecedents":"olive oil, pasta",
+        "consequents":"parmesan",
+        "support":0.0311488673,
+        "confidence":0.6470588235,
+        "lift":4.6633510547,
+        "n_baskets":77
+    },
+    {
+        "antecedents":"pasta, red wine",
+        "consequents":"parmesan",
+        "support":0.0303398058,
+        "confidence":0.6465517241,
+        "lift":4.6596963909,
+        "n_baskets":75
+    },
+    {
+        "antecedents":"red wine, tomato sauce",
+        "consequents":"pasta",
+        "support":0.0339805825,
+        "confidence":0.8076923077,
+        "lift":4.6432915921,
+        "n_baskets":84
+    },
+    {
+        "antecedents":"olive oil, tomato sauce",
+        "consequents":"pasta",
+        "support":0.0372168285,
+        "confidence":0.8070175439,
+        "lift":4.6394124847,
+        "n_baskets":92
+    },
+    {
+        "antecedents":"parmesan, red wine",
+        "consequents":"pasta",
+        "support":0.0303398058,
+        "confidence":0.7978723404,
+        "lift":4.5868381989,
+        "n_baskets":75
+    },
+    {
+        "antecedents":"granola, yogurt",
+        "consequents":"bananas",
+        "support":0.0343851133,
+        "confidence":0.5029585799,
+        "lift":4.5542623057,
+        "n_baskets":85
+    },
+    {
+        "antecedents":"butter, strawberry jam",
+        "consequents":"white bread",
+        "support":0.057038835,
+        "confidence":0.8197674419,
+        "lift":4.5334790073,
+        "n_baskets":141
+    },
+    {
+        "antecedents":"butter, eggs",
+        "consequents":"white bread",
+        "support":0.0404530744,
+        "confidence":0.8196721311,
+        "lift":4.5329519199,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"coffee beans, strawberry jam",
+        "consequents":"white bread",
+        "support":0.0404530744,
+        "confidence":0.8130081301,
+        "lift":4.4960986523,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"ground beef, pasta",
+        "consequents":"parmesan",
+        "support":0.0287216828,
+        "confidence":0.6228070175,
+        "lift":4.4885683597,
+        "n_baskets":71
+    },
+    {
+        "antecedents":"olive oil, parmesan",
+        "consequents":"tomato sauce",
+        "support":0.0275080906,
+        "confidence":0.7311827957,
+        "lift":4.4739699776,
+        "n_baskets":68
+    },
+    {
+        "antecedents":"eggs, strawberry jam",
+        "consequents":"white bread",
+        "support":0.0315533981,
+        "confidence":0.8041237113,
+        "lift":4.4469660278,
+        "n_baskets":78
+    },
+    {
+        "antecedents":"butter, coffee beans",
+        "consequents":"white bread",
+        "support":0.0513754045,
+        "confidence":0.8037974684,
+        "lift":4.4451618384,
+        "n_baskets":127
+    },
+    {
+        "antecedents":"pasta, red wine",
+        "consequents":"tomato sauce",
+        "support":0.0339805825,
+        "confidence":0.724137931,
+        "lift":4.430863776,
+        "n_baskets":84
+    },
+    {
+        "antecedents":"eggs, milk 2%",
+        "consequents":"strawberry jam",
+        "support":0.0242718447,
+        "confidence":0.612244898,
+        "lift":4.4124471946,
+        "n_baskets":60
+    },
+    {
+        "antecedents":"ground beef, pasta",
+        "consequents":"tomato sauce",
+        "support":0.033171521,
+        "confidence":0.7192982456,
+        "lift":4.4012506514,
+        "n_baskets":82
+    },
+    {
+        "antecedents":"coffee beans, sugar",
+        "consequents":"croissant",
+        "support":0.0275080906,
+        "confidence":0.4358974359,
+        "lift":4.3981161695,
+        "n_baskets":68
+    },
+    {
+        "antecedents":"milk 2%, white bread",
+        "consequents":"strawberry jam",
+        "support":0.0453074434,
+        "confidence":0.6021505376,
+        "lift":4.3396971692,
+        "n_baskets":112
+    },
+    {
+        "antecedents":"beer, tortilla chips",
+        "consequents":"peanuts",
+        "support":0.0319579288,
+        "confidence":0.4413407821,
+        "lift":4.3293429103,
+        "n_baskets":79
+    },
+    {
+        "antecedents":"pasta, tomato sauce",
+        "consequents":"parmesan",
+        "support":0.0622977346,
+        "confidence":0.5968992248,
+        "lift":4.3018509729,
+        "n_baskets":154
+    },
+    {
+        "antecedents":"olive oil, tomato sauce",
+        "consequents":"parmesan",
+        "support":0.0275080906,
+        "confidence":0.5964912281,
+        "lift":4.2989105417,
+        "n_baskets":68
+    },
+    {
+        "antecedents":"butter, milk 2%",
+        "consequents":"white bread",
+        "support":0.052184466,
+        "confidence":0.7724550898,
+        "lift":4.2718321746,
+        "n_baskets":129
+    },
+    {
+        "antecedents":"ground beef, tomato sauce",
+        "consequents":"parmesan",
+        "support":0.0238673139,
+        "confidence":0.59,
+        "lift":4.2521282799,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"eggs, strawberry jam",
+        "consequents":"butter",
+        "support":0.0279126214,
+        "confidence":0.7113402062,
+        "lift":4.2474226804,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"ground beef, parmesan",
+        "consequents":"tomato sauce",
+        "support":0.0238673139,
+        "confidence":0.6941176471,
+        "lift":4.2471753058,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"milk 2%, strawberry jam",
+        "consequents":"white bread",
+        "support":0.0453074434,
+        "confidence":0.7671232877,
+        "lift":4.2423462352,
+        "n_baskets":112
+    },
+    {
+        "antecedents":"baby wipes",
+        "consequents":"diapers",
+        "support":0.0457119741,
+        "confidence":0.4956140351,
+        "lift":4.2101645867,
+        "n_baskets":113
+    },
+    {
+        "antecedents":"diapers",
+        "consequents":"baby wipes",
+        "support":0.0457119741,
+        "confidence":0.3883161512,
+        "lift":4.2101645867,
+        "n_baskets":113
+    },
+    {
+        "antecedents":"butter, milk 2%",
+        "consequents":"strawberry jam",
+        "support":0.0392394822,
+        "confidence":0.5808383234,
+        "lift":4.186100103,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"red wine, tomato sauce",
+        "consequents":"parmesan",
+        "support":0.0242718447,
+        "confidence":0.5769230769,
+        "lift":4.1578829334,
+        "n_baskets":60
+    },
+    {
+        "antecedents":"strawberry jam, white bread",
+        "consequents":"butter",
+        "support":0.057038835,
+        "confidence":0.6945812808,
+        "lift":4.147354894,
+        "n_baskets":141
+    },
+    {
+        "antecedents":"eggs, white bread",
+        "consequents":"butter",
+        "support":0.0404530744,
+        "confidence":0.6944444444,
+        "lift":4.1465378422,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"milk 2%, white bread",
+        "consequents":"butter",
+        "support":0.052184466,
+        "confidence":0.6935483871,
+        "lift":4.1411874708,
+        "n_baskets":129
+    },
+    {
+        "antecedents":"croissant, milk 2%",
+        "consequents":"coffee beans",
+        "support":0.0291262136,
+        "confidence":0.8674698795,
+        "lift":4.0767785973,
+        "n_baskets":72
+    },
+    {
+        "antecedents":"butter, eggs",
+        "consequents":"strawberry jam",
+        "support":0.0279126214,
+        "confidence":0.5655737705,
+        "lift":4.076088515,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"butter, white bread",
+        "consequents":"strawberry jam",
+        "support":0.057038835,
+        "confidence":0.5595238095,
+        "lift":4.032486464,
+        "n_baskets":141
+    },
+    {
+        "antecedents":"beer, tortilla chips",
+        "consequents":"chocolate bar",
+        "support":0.0234627832,
+        "confidence":0.3240223464,
+        "lift":4.0049162011,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"croissant, sugar",
+        "consequents":"coffee beans",
+        "support":0.0275080906,
+        "confidence":0.85,
+        "lift":3.9946768061,
+        "n_baskets":68
+    },
+    {
+        "antecedents":"beer",
+        "consequents":"tortilla chips",
+        "support":0.0724110032,
+        "confidence":0.4890710383,
+        "lift":3.9769197584,
+        "n_baskets":179
+    },
+    {
+        "antecedents":"tortilla chips",
+        "consequents":"beer",
+        "support":0.0724110032,
+        "confidence":0.5888157895,
+        "lift":3.9769197584,
+        "n_baskets":179
+    },
+    {
+        "antecedents":"milk 2%, strawberry jam",
+        "consequents":"butter",
+        "support":0.0392394822,
+        "confidence":0.6643835616,
+        "lift":3.9670438753,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"eggs, milk 2%",
+        "consequents":"butter",
+        "support":0.0262944984,
+        "confidence":0.6632653061,
+        "lift":3.9603667554,
+        "n_baskets":65
+    },
+    {
+        "antecedents":"eggs, milk 2%",
+        "consequents":"white bread",
+        "support":0.0283171521,
+        "confidence":0.7142857143,
+        "lift":3.9501438159,
+        "n_baskets":70
+    },
+    {
+        "antecedents":"bananas, yogurt",
+        "consequents":"avocado",
+        "support":0.0214401294,
+        "confidence":0.381294964,
+        "lift":3.9437705066,
+        "n_baskets":53
+    },
+    {
+        "antecedents":"berries, yogurt",
+        "consequents":"avocado",
+        "support":0.0279126214,
+        "confidence":0.3812154696,
+        "lift":3.9429482882,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"coffee beans, white bread",
+        "consequents":"butter",
+        "support":0.0513754045,
+        "confidence":0.6580310881,
+        "lift":3.9291131636,
+        "n_baskets":127
+    },
+    {
+        "antecedents":"milk 2%, sugar",
+        "consequents":"coffee beans",
+        "support":0.0368122977,
+        "confidence":0.8348623853,
+        "lift":3.9235357728,
+        "n_baskets":91
+    },
+    {
+        "antecedents":"parmesan, red wine",
+        "consequents":"tomato sauce",
+        "support":0.0242718447,
+        "confidence":0.6382978723,
+        "lift":3.905624605,
+        "n_baskets":60
+    },
+    {
+        "antecedents":"eggs, white bread",
+        "consequents":"strawberry jam",
+        "support":0.0315533981,
+        "confidence":0.5416666667,
+        "lift":3.9037900875,
+        "n_baskets":78
+    },
+    {
+        "antecedents":"coffee beans, eggs",
+        "consequents":"white bread",
+        "support":0.0238673139,
+        "confidence":0.7023809524,
+        "lift":3.8843080857,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"conditioner",
+        "consequents":"shampoo",
+        "support":0.036407767,
+        "confidence":0.3813559322,
+        "lift":3.879472693,
+        "n_baskets":90
+    },
+    {
+        "antecedents":"shampoo",
+        "consequents":"conditioner",
+        "support":0.036407767,
+        "confidence":0.3703703704,
+        "lift":3.879472693,
+        "n_baskets":90
+    },
+    {
+        "antecedents":"berries",
+        "consequents":"yogurt",
+        "support":0.0732200647,
+        "confidence":0.5451807229,
+        "lift":3.8395633817,
+        "n_baskets":181
+    },
+    {
+        "antecedents":"yogurt",
+        "consequents":"berries",
+        "support":0.0732200647,
+        "confidence":0.5156695157,
+        "lift":3.8395633817,
+        "n_baskets":181
+    },
+    {
+        "antecedents":"yogurt",
+        "consequents":"granola",
+        "support":0.0683656958,
+        "confidence":0.4814814815,
+        "lift":3.8394265233,
+        "n_baskets":169
+    },
+    {
+        "antecedents":"granola",
+        "consequents":"yogurt",
+        "support":0.0683656958,
+        "confidence":0.5451612903,
+        "lift":3.8394265233,
+        "n_baskets":169
+    },
+    {
+        "antecedents":"diapers",
+        "consequents":"baby formula",
+        "support":0.0368122977,
+        "confidence":0.3127147766,
+        "lift":3.7893672933,
+        "n_baskets":91
+    },
+    {
+        "antecedents":"baby formula",
+        "consequents":"diapers",
+        "support":0.0368122977,
+        "confidence":0.4460784314,
+        "lift":3.7893672933,
+        "n_baskets":91
+    },
+    {
+        "antecedents":"lemon",
+        "consequents":"salmon",
+        "support":0.053802589,
+        "confidence":0.4889705882,
+        "lift":3.7538363171,
+        "n_baskets":133
+    },
+    {
+        "antecedents":"salmon",
+        "consequents":"lemon",
+        "support":0.053802589,
+        "confidence":0.4130434783,
+        "lift":3.7538363171,
+        "n_baskets":133
+    },
+    {
+        "antecedents":"coffee beans, strawberry jam",
+        "consequents":"butter",
+        "support":0.0311488673,
+        "confidence":0.6260162602,
+        "lift":3.7379521621,
+        "n_baskets":77
+    },
+    {
+        "antecedents":"coffee beans, white bread",
+        "consequents":"strawberry jam",
+        "support":0.0404530744,
+        "confidence":0.518134715,
+        "lift":3.7341953806,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"baby formula",
+        "consequents":"baby wipes",
+        "support":0.0283171521,
+        "confidence":0.3431372549,
+        "lift":3.7203302374,
+        "n_baskets":70
+    },
+    {
+        "antecedents":"baby wipes",
+        "consequents":"baby formula",
+        "support":0.0283171521,
+        "confidence":0.3070175439,
+        "lift":3.7203302374,
+        "n_baskets":70
+    },
+    {
+        "antecedents":"salsa",
+        "consequents":"tortilla chips",
+        "support":0.0477346278,
+        "confidence":0.4555984556,
+        "lift":3.70473481,
+        "n_baskets":118
+    },
+    {
+        "antecedents":"tortilla chips",
+        "consequents":"salsa",
+        "support":0.0477346278,
+        "confidence":0.3881578947,
+        "lift":3.70473481,
+        "n_baskets":118
+    },
+    {
+        "antecedents":"tomato sauce",
+        "consequents":"pasta",
+        "support":0.104368932,
+        "confidence":0.6386138614,
+        "lift":3.6712871287,
+        "n_baskets":258
+    },
+    {
+        "antecedents":"pasta",
+        "consequents":"tomato sauce",
+        "support":0.104368932,
+        "confidence":0.6,
+        "lift":3.6712871287,
+        "n_baskets":258
+    },
+    {
+        "antecedents":"milk 2%, strawberry jam",
+        "consequents":"eggs",
+        "support":0.0242718447,
+        "confidence":0.4109589041,
+        "lift":3.6281800391,
+        "n_baskets":60
+    },
+    {
+        "antecedents":"berries, yogurt",
+        "consequents":"lettuce",
+        "support":0.0250809061,
+        "confidence":0.3425414365,
+        "lift":3.603244387,
+        "n_baskets":62
+    },
+    {
+        "antecedents":"bananas",
+        "consequents":"yogurt",
+        "support":0.0562297735,
+        "confidence":0.5091575092,
+        "lift":3.585861432,
+        "n_baskets":139
+    },
+    {
+        "antecedents":"yogurt",
+        "consequents":"bananas",
+        "support":0.0562297735,
+        "confidence":0.396011396,
+        "lift":3.585861432,
+        "n_baskets":139
+    },
+    {
+        "antecedents":"coffee beans, eggs",
+        "consequents":"butter",
+        "support":0.0202265372,
+        "confidence":0.5952380952,
+        "lift":3.5541752933,
+        "n_baskets":50
+    },
+    {
+        "antecedents":"granola, yogurt",
+        "consequents":"avocado",
+        "support":0.0234627832,
+        "confidence":0.3431952663,
+        "lift":3.5497016662,
+        "n_baskets":58
+    },
+    {
+        "antecedents":"parmesan, pasta",
+        "consequents":"ground beef",
+        "support":0.0287216828,
+        "confidence":0.3514851485,
+        "lift":3.5464134169,
+        "n_baskets":71
+    },
+    {
+        "antecedents":"butter, strawberry jam",
+        "consequents":"eggs",
+        "support":0.0279126214,
+        "confidence":0.4011627907,
+        "lift":3.5416943522,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"lemon, salmon",
+        "consequents":"olive oil",
+        "support":0.0254854369,
+        "confidence":0.4736842105,
+        "lift":3.5376053427,
+        "n_baskets":63
+    },
+    {
+        "antecedents":"butter, coffee beans",
+        "consequents":"strawberry jam",
+        "support":0.0311488673,
+        "confidence":0.4873417722,
+        "lift":3.5122707311,
+        "n_baskets":77
+    },
+    {
+        "antecedents":"butter, white bread",
+        "consequents":"eggs",
+        "support":0.0404530744,
+        "confidence":0.3968253968,
+        "lift":3.5034013605,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"salsa",
+        "consequents":"beer",
+        "support":0.0542071197,
+        "confidence":0.5173745174,
+        "lift":3.4943983796,
+        "n_baskets":134
+    },
+    {
+        "antecedents":"beer",
+        "consequents":"salsa",
+        "support":0.0542071197,
+        "confidence":0.3661202186,
+        "lift":3.4943983796,
+        "n_baskets":134
+    },
+    {
+        "antecedents":"toilet paper",
+        "consequents":"laundry detergent",
+        "support":0.0428802589,
+        "confidence":0.3365079365,
+        "lift":3.466031746,
+        "n_baskets":106
+    },
+    {
+        "antecedents":"laundry detergent",
+        "consequents":"toilet paper",
+        "support":0.0428802589,
+        "confidence":0.4416666667,
+        "lift":3.466031746,
+        "n_baskets":106
+    },
+    {
+        "antecedents":"butter, milk 2%",
+        "consequents":"eggs",
+        "support":0.0262944984,
+        "confidence":0.3892215569,
+        "lift":3.4362703165,
+        "n_baskets":65
+    },
+    {
+        "antecedents":"eggs, strawberry jam",
+        "consequents":"milk 2%",
+        "support":0.0242718447,
+        "confidence":0.618556701,
+        "lift":3.413107511,
+        "n_baskets":60
+    },
+    {
+        "antecedents":"strawberry jam, white bread",
+        "consequents":"eggs",
+        "support":0.0315533981,
+        "confidence":0.3842364532,
+        "lift":3.3922589726,
+        "n_baskets":78
+    },
+    {
+        "antecedents":"parmesan",
+        "consequents":"pasta",
+        "support":0.0817152104,
+        "confidence":0.5889212828,
+        "lift":3.3856125839,
+        "n_baskets":202
+    },
+    {
+        "antecedents":"pasta",
+        "consequents":"parmesan",
+        "support":0.0817152104,
+        "confidence":0.4697674419,
+        "lift":3.3856125839,
+        "n_baskets":202
+    },
+    {
+        "antecedents":"white bread",
+        "consequents":"butter",
+        "support":0.1019417476,
+        "confidence":0.5637583893,
+        "lift":3.3662095127,
+        "n_baskets":252
+    },
+    {
+        "antecedents":"butter",
+        "consequents":"white bread",
+        "support":0.1019417476,
+        "confidence":0.6086956522,
+        "lift":3.3662095127,
+        "n_baskets":252
+    },
+    {
+        "antecedents":"coffee beans, milk 2%",
+        "consequents":"sugar",
+        "support":0.0368122977,
+        "confidence":0.3823529412,
+        "lift":3.3398461858,
+        "n_baskets":91
+    },
+    {
+        "antecedents":"parmesan, tomato sauce",
+        "consequents":"ground beef",
+        "support":0.0238673139,
+        "confidence":0.3296089385,
+        "lift":3.3256869228,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"milk 2%, white bread",
+        "consequents":"eggs",
+        "support":0.0283171521,
+        "confidence":0.376344086,
+        "lift":3.3225806452,
+        "n_baskets":70
+    },
+    {
+        "antecedents":"berries",
+        "consequents":"granola",
+        "support":0.0558252427,
+        "confidence":0.4156626506,
+        "lift":3.3145744267,
+        "n_baskets":138
+    },
+    {
+        "antecedents":"granola",
+        "consequents":"berries",
+        "support":0.0558252427,
+        "confidence":0.4451612903,
+        "lift":3.3145744267,
+        "n_baskets":138
+    },
+    {
+        "antecedents":"bananas",
+        "consequents":"granola",
+        "support":0.0457119741,
+        "confidence":0.4139194139,
+        "lift":3.30067352,
+        "n_baskets":113
+    },
+    {
+        "antecedents":"granola",
+        "consequents":"bananas",
+        "support":0.0457119741,
+        "confidence":0.364516129,
+        "lift":3.30067352,
+        "n_baskets":113
+    },
+    {
+        "antecedents":"toilet paper",
+        "consequents":"dish soap",
+        "support":0.0404530744,
+        "confidence":0.3174603175,
+        "lift":3.2835226141,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"dish soap",
+        "consequents":"toilet paper",
+        "support":0.0404530744,
+        "confidence":0.4184100418,
+        "lift":3.2835226141,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"toothpaste",
+        "consequents":"shampoo",
+        "support":0.0275080906,
+        "confidence":0.3222748815,
+        "lift":3.2784506465,
+        "n_baskets":68
+    },
+    {
+        "antecedents":"white bread",
+        "consequents":"strawberry jam",
+        "support":0.0821197411,
+        "confidence":0.4541387025,
+        "lift":3.2729763046,
+        "n_baskets":203
+    },
+    {
+        "antecedents":"strawberry jam",
+        "consequents":"white bread",
+        "support":0.0821197411,
+        "confidence":0.5918367347,
+        "lift":3.2729763046,
+        "n_baskets":203
+    },
+    {
+        "antecedents":"bananas",
+        "consequents":"berries",
+        "support":0.0481391586,
+        "confidence":0.4358974359,
+        "lift":3.2455977757,
+        "n_baskets":119
+    },
+    {
+        "antecedents":"berries",
+        "consequents":"bananas",
+        "support":0.0481391586,
+        "confidence":0.3584337349,
+        "lift":3.2455977757,
+        "n_baskets":119
+    },
+    {
+        "antecedents":"salsa",
+        "consequents":"peanuts",
+        "support":0.0343851133,
+        "confidence":0.3281853282,
+        "lift":3.2193417908,
+        "n_baskets":85
+    },
+    {
+        "antecedents":"peanuts",
+        "consequents":"salsa",
+        "support":0.0343851133,
+        "confidence":0.3373015873,
+        "lift":3.2193417908,
+        "n_baskets":85
+    },
+    {
+        "antecedents":"coffee beans, sugar",
+        "consequents":"milk 2%",
+        "support":0.0368122977,
+        "confidence":0.5833333333,
+        "lift":3.21875,
+        "n_baskets":91
+    },
+    {
+        "antecedents":"peanuts",
+        "consequents":"beer",
+        "support":0.0485436893,
+        "confidence":0.4761904762,
+        "lift":3.2162373146,
+        "n_baskets":120
+    },
+    {
+        "antecedents":"beer",
+        "consequents":"peanuts",
+        "support":0.0485436893,
+        "confidence":0.3278688525,
+        "lift":3.2162373146,
+        "n_baskets":120
+    },
+    {
+        "antecedents":"pasta, tomato sauce",
+        "consequents":"ground beef",
+        "support":0.033171521,
+        "confidence":0.3178294574,
+        "lift":3.2068343617,
+        "n_baskets":82
+    },
+    {
+        "antecedents":"tomato sauce",
+        "consequents":"parmesan",
+        "support":0.0724110032,
+        "confidence":0.4430693069,
+        "lift":3.1931992033,
+        "n_baskets":179
+    },
+    {
+        "antecedents":"parmesan",
+        "consequents":"tomato sauce",
+        "support":0.0724110032,
+        "confidence":0.5218658892,
+        "lift":3.1931992033,
+        "n_baskets":179
+    },
+    {
+        "antecedents":"cucumber",
+        "consequents":"salmon",
+        "support":0.0315533981,
+        "confidence":0.414893617,
+        "lift":3.1851460288,
+        "n_baskets":78
+    },
+    {
+        "antecedents":"coffee beans, croissant",
+        "consequents":"milk 2%",
+        "support":0.0291262136,
+        "confidence":0.576,
+        "lift":3.1782857143,
+        "n_baskets":72
+    },
+    {
+        "antecedents":"peanuts",
+        "consequents":"tortilla chips",
+        "support":0.0396440129,
+        "confidence":0.3888888889,
+        "lift":3.1622807018,
+        "n_baskets":98
+    },
+    {
+        "antecedents":"tortilla chips",
+        "consequents":"peanuts",
+        "support":0.0396440129,
+        "confidence":0.3223684211,
+        "lift":3.1622807018,
+        "n_baskets":98
+    },
+    {
+        "antecedents":"butter, strawberry jam",
+        "consequents":"milk 2%",
+        "support":0.0392394822,
+        "confidence":0.5639534884,
+        "lift":3.1118147841,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"coffee beans, strawberry jam",
+        "consequents":"milk 2%",
+        "support":0.0279126214,
+        "confidence":0.5609756098,
+        "lift":3.0953832753,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"paper towels",
+        "consequents":"toilet paper",
+        "support":0.0493527508,
+        "confidence":0.391025641,
+        "lift":3.0686202686,
+        "n_baskets":122
+    },
+    {
+        "antecedents":"toilet paper",
+        "consequents":"paper towels",
+        "support":0.0493527508,
+        "confidence":0.3873015873,
+        "lift":3.0686202686,
+        "n_baskets":122
+    },
+    {
+        "antecedents":"coffee beans, milk 2%",
+        "consequents":"croissant",
+        "support":0.0291262136,
+        "confidence":0.3025210084,
+        "lift":3.0523752358,
+        "n_baskets":72
+    },
+    {
+        "antecedents":"strawberry jam, white bread",
+        "consequents":"milk 2%",
+        "support":0.0453074434,
+        "confidence":0.5517241379,
+        "lift":3.0443349754,
+        "n_baskets":112
+    },
+    {
+        "antecedents":"strawberry jam",
+        "consequents":"butter",
+        "support":0.069579288,
+        "confidence":0.5014577259,
+        "lift":2.9942113491,
+        "n_baskets":172
+    },
+    {
+        "antecedents":"butter",
+        "consequents":"strawberry jam",
+        "support":0.069579288,
+        "confidence":0.4154589372,
+        "lift":2.9942113491,
+        "n_baskets":172
+    },
+    {
+        "antecedents":"parmesan, pasta",
+        "consequents":"red wine",
+        "support":0.0303398058,
+        "confidence":0.3712871287,
+        "lift":2.9607154264,
+        "n_baskets":75
+    },
+    {
+        "antecedents":"chocolate bar",
+        "consequents":"salsa",
+        "support":0.0250809061,
+        "confidence":0.31,
+        "lift":2.9587644788,
+        "n_baskets":62
+    },
+    {
+        "antecedents":"trash bags",
+        "consequents":"toilet paper",
+        "support":0.0343851133,
+        "confidence":0.3761061947,
+        "lift":2.9515381374,
+        "n_baskets":85
+    },
+    {
+        "antecedents":"butter, eggs",
+        "consequents":"milk 2%",
+        "support":0.0262944984,
+        "confidence":0.5327868852,
+        "lift":2.9398419204,
+        "n_baskets":65
+    },
+    {
+        "antecedents":"laundry detergent",
+        "consequents":"paper towels",
+        "support":0.0360032362,
+        "confidence":0.3708333333,
+        "lift":2.9381410256,
+        "n_baskets":89
+    },
+    {
+        "antecedents":"avocado",
+        "consequents":"yogurt",
+        "support":0.0392394822,
+        "confidence":0.4058577406,
+        "lift":2.858348532,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"croissant",
+        "consequents":"sugar",
+        "support":0.0323624595,
+        "confidence":0.3265306122,
+        "lift":2.8522391289,
+        "n_baskets":80
+    },
+    {
+        "antecedents":"parmesan, pasta",
+        "consequents":"olive oil",
+        "support":0.0311488673,
+        "confidence":0.3811881188,
+        "lift":2.8468188209,
+        "n_baskets":77
+    },
+    {
+        "antecedents":"chocolate bar",
+        "consequents":"tortilla chips",
+        "support":0.0283171521,
+        "confidence":0.35,
+        "lift":2.8460526316,
+        "n_baskets":70
+    },
+    {
+        "antecedents":"eggs",
+        "consequents":"white bread",
+        "support":0.0582524272,
+        "confidence":0.5142857143,
+        "lift":2.8441035475,
+        "n_baskets":144
+    },
+    {
+        "antecedents":"white bread",
+        "consequents":"eggs",
+        "support":0.0582524272,
+        "confidence":0.322147651,
+        "lift":2.8441035475,
+        "n_baskets":144
+    },
+    {
+        "antecedents":"parmesan, tomato sauce",
+        "consequents":"olive oil",
+        "support":0.0275080906,
+        "confidence":0.3798882682,
+        "lift":2.8371111749,
+        "n_baskets":68
+    },
+    {
+        "antecedents":"butter, white bread",
+        "consequents":"milk 2%",
+        "support":0.052184466,
+        "confidence":0.5119047619,
+        "lift":2.8246173469,
+        "n_baskets":129
+    },
+    {
+        "antecedents":"coffee beans, white bread",
+        "consequents":"milk 2%",
+        "support":0.0396440129,
+        "confidence":0.5077720207,
+        "lift":2.8018134715,
+        "n_baskets":98
+    },
+    {
+        "antecedents":"butter, coffee beans",
+        "consequents":"eggs",
+        "support":0.0202265372,
+        "confidence":0.3164556962,
+        "lift":2.7938517179,
+        "n_baskets":50
+    },
+    {
+        "antecedents":"butter, coffee beans",
+        "consequents":"milk 2%",
+        "support":0.0323624595,
+        "confidence":0.5063291139,
+        "lift":2.7938517179,
+        "n_baskets":80
+    },
+    {
+        "antecedents":"avocado",
+        "consequents":"berries",
+        "support":0.0360032362,
+        "confidence":0.3723849372,
+        "lift":2.7726974845,
+        "n_baskets":89
+    },
+    {
+        "antecedents":"avocado",
+        "consequents":"bananas",
+        "support":0.0295307443,
+        "confidence":0.3054393305,
+        "lift":2.7657363557,
+        "n_baskets":73
+    },
+    {
+        "antecedents":"cucumber",
+        "consequents":"lemon",
+        "support":0.0230582524,
+        "confidence":0.3031914894,
+        "lift":2.7554755945,
+        "n_baskets":57
+    },
+    {
+        "antecedents":"coffee beans, white bread",
+        "consequents":"eggs",
+        "support":0.0238673139,
+        "confidence":0.3056994819,
+        "lift":2.6988897113,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"lettuce",
+        "consequents":"yogurt",
+        "support":0.036407767,
+        "confidence":0.3829787234,
+        "lift":2.6972176759,
+        "n_baskets":90
+    },
+    {
+        "antecedents":"eggs, white bread",
+        "consequents":"milk 2%",
+        "support":0.0283171521,
+        "confidence":0.4861111111,
+        "lift":2.6822916667,
+        "n_baskets":70
+    },
+    {
+        "antecedents":"ground beef",
+        "consequents":"pasta",
+        "support":0.0461165049,
+        "confidence":0.4653061224,
+        "lift":2.6749691505,
+        "n_baskets":114
+    },
+    {
+        "antecedents":"parmesan, tomato sauce",
+        "consequents":"red wine",
+        "support":0.0242718447,
+        "confidence":0.3351955307,
+        "lift":2.6729140386,
+        "n_baskets":60
+    },
+    {
+        "antecedents":"pasta, tomato sauce",
+        "consequents":"olive oil",
+        "support":0.0372168285,
+        "confidence":0.3565891473,
+        "lift":2.6631068643,
+        "n_baskets":92
+    },
+    {
+        "antecedents":"chocolate bar",
+        "consequents":"beer",
+        "support":0.0315533981,
+        "confidence":0.39,
+        "lift":2.6340983607,
+        "n_baskets":78
+    },
+    {
+        "antecedents":"lettuce",
+        "consequents":"berries",
+        "support":0.0335760518,
+        "confidence":0.3531914894,
+        "lift":2.629787234,
+        "n_baskets":83
+    },
+    {
+        "antecedents":"trash bags",
+        "consequents":"paper towels",
+        "support":0.0303398058,
+        "confidence":0.3318584071,
+        "lift":2.6293396869,
+        "n_baskets":75
+    },
+    {
+        "antecedents":"eggs",
+        "consequents":"butter",
+        "support":0.0493527508,
+        "confidence":0.4357142857,
+        "lift":2.6016563147,
+        "n_baskets":122
+    },
+    {
+        "antecedents":"pasta, tomato sauce",
+        "consequents":"red wine",
+        "support":0.0339805825,
+        "confidence":0.3255813953,
+        "lift":2.5962490623,
+        "n_baskets":84
+    },
+    {
+        "antecedents":"sugar",
+        "consequents":"coffee beans",
+        "support":0.0631067961,
+        "confidence":0.5512367491,
+        "lift":2.5906031251,
+        "n_baskets":156
+    },
+    {
+        "antecedents":"avocado",
+        "consequents":"granola",
+        "support":0.0307443366,
+        "confidence":0.3179916318,
+        "lift":2.5357268187,
+        "n_baskets":76
+    },
+    {
+        "antecedents":"ground beef",
+        "consequents":"parmesan",
+        "support":0.0343851133,
+        "confidence":0.3469387755,
+        "lift":2.5003867436,
+        "n_baskets":85
+    },
+    {
+        "antecedents":"ground beef",
+        "consequents":"tomato sauce",
+        "support":0.0404530744,
+        "confidence":0.4081632653,
+        "lift":2.4974742372,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"eggs",
+        "consequents":"strawberry jam",
+        "support":0.0392394822,
+        "confidence":0.3464285714,
+        "lift":2.4967097043,
+        "n_baskets":97
+    },
+    {
+        "antecedents":"milk 2%",
+        "consequents":"coffee beans",
+        "support":0.0962783172,
+        "confidence":0.53125,
+        "lift":2.4966730038,
+        "n_baskets":238
+    },
+    {
+        "antecedents":"coffee beans",
+        "consequents":"milk 2%",
+        "support":0.0962783172,
+        "confidence":0.4524714829,
+        "lift":2.4966730038,
+        "n_baskets":238
+    },
+    {
+        "antecedents":"salmon",
+        "consequents":"olive oil",
+        "support":0.0432847896,
+        "confidence":0.3322981366,
+        "lift":2.4816948453,
+        "n_baskets":107
+    },
+    {
+        "antecedents":"olive oil",
+        "consequents":"salmon",
+        "support":0.0432847896,
+        "confidence":0.3232628399,
+        "lift":2.4816948453,
+        "n_baskets":107
+    },
+    {
+        "antecedents":"milk 2%, white bread",
+        "consequents":"coffee beans",
+        "support":0.0396440129,
+        "confidence":0.5268817204,
+        "lift":2.4761437508,
+        "n_baskets":98
+    },
+    {
+        "antecedents":"lemon",
+        "consequents":"olive oil",
+        "support":0.036407767,
+        "confidence":0.3308823529,
+        "lift":2.4711213791,
+        "n_baskets":90
+    },
+    {
+        "antecedents":"croissant",
+        "consequents":"coffee beans",
+        "support":0.050566343,
+        "confidence":0.5102040816,
+        "lift":2.3977651897,
+        "n_baskets":125
+    },
+    {
+        "antecedents":"butter, white bread",
+        "consequents":"coffee beans",
+        "support":0.0513754045,
+        "confidence":0.503968254,
+        "lift":2.3684591707,
+        "n_baskets":127
+    },
+    {
+        "antecedents":"strawberry jam",
+        "consequents":"milk 2%",
+        "support":0.0590614887,
+        "confidence":0.4256559767,
+        "lift":2.3487088713,
+        "n_baskets":146
+    },
+    {
+        "antecedents":"milk 2%",
+        "consequents":"strawberry jam",
+        "support":0.0590614887,
+        "confidence":0.3258928571,
+        "lift":2.3487088713,
+        "n_baskets":146
+    },
+    {
+        "antecedents":"strawberry jam, white bread",
+        "consequents":"coffee beans",
+        "support":0.0404530744,
+        "confidence":0.4926108374,
+        "lift":2.3150836315,
+        "n_baskets":100
+    },
+    {
+        "antecedents":"milk 2%",
+        "consequents":"white bread",
+        "support":0.0752427184,
+        "confidence":0.4151785714,
+        "lift":2.296021093,
+        "n_baskets":186
+    },
+    {
+        "antecedents":"white bread",
+        "consequents":"milk 2%",
+        "support":0.0752427184,
+        "confidence":0.4161073826,
+        "lift":2.296021093,
+        "n_baskets":186
+    },
+    {
+        "antecedents":"coffee beans, milk 2%",
+        "consequents":"white bread",
+        "support":0.0396440129,
+        "confidence":0.4117647059,
+        "lift":2.2771417292,
+        "n_baskets":98
+    },
+    {
+        "antecedents":"butter, milk 2%",
+        "consequents":"coffee beans",
+        "support":0.0323624595,
+        "confidence":0.4790419162,
+        "lift":2.2513148608,
+        "n_baskets":80
+    },
+    {
+        "antecedents":"butter",
+        "consequents":"milk 2%",
+        "support":0.0675566343,
+        "confidence":0.4033816425,
+        "lift":2.2258022774,
+        "n_baskets":167
+    },
+    {
+        "antecedents":"milk 2%",
+        "consequents":"butter",
+        "support":0.0675566343,
+        "confidence":0.3727678571,
+        "lift":2.2258022774,
+        "n_baskets":167
+    },
+    {
+        "antecedents":"milk 2%, strawberry jam",
+        "consequents":"coffee beans",
+        "support":0.0279126214,
+        "confidence":0.4726027397,
+        "lift":2.2210531799,
+        "n_baskets":69
+    },
+    {
+        "antecedents":"red wine",
+        "consequents":"parmesan",
+        "support":0.03802589,
+        "confidence":0.3032258065,
+        "lift":2.1853475031,
+        "n_baskets":94
+    },
+    {
+        "antecedents":"red wine",
+        "consequents":"pasta",
+        "support":0.0469255663,
+        "confidence":0.3741935484,
+        "lift":2.1511777944,
+        "n_baskets":116
+    },
+    {
+        "antecedents":"sugar",
+        "consequents":"milk 2%",
+        "support":0.0440938511,
+        "confidence":0.3851590106,
+        "lift":2.1252523978,
+        "n_baskets":109
+    },
+    {
+        "antecedents":"olive oil",
+        "consequents":"tomato sauce",
+        "support":0.0461165049,
+        "confidence":0.3444108761,
+        "lift":2.1073853609,
+        "n_baskets":114
+    },
+    {
+        "antecedents":"butter, strawberry jam",
+        "consequents":"coffee beans",
+        "support":0.0311488673,
+        "confidence":0.4476744186,
+        "lift":2.103899549,
+        "n_baskets":77
+    },
+    {
+        "antecedents":"olive oil",
+        "consequents":"pasta",
+        "support":0.0481391586,
+        "confidence":0.3595166163,
+        "lift":2.0668025012,
+        "n_baskets":119
+    },
+    {
+        "antecedents":"red wine",
+        "consequents":"tomato sauce",
+        "support":0.0420711974,
+        "confidence":0.335483871,
+        "lift":2.0527626956,
+        "n_baskets":104
+    },
+    {
+        "antecedents":"white bread",
+        "consequents":"coffee beans",
+        "support":0.0780744337,
+        "confidence":0.4317673378,
+        "lift":2.0291423176,
+        "n_baskets":193
+    },
+    {
+        "antecedents":"coffee beans",
+        "consequents":"white bread",
+        "support":0.0780744337,
+        "confidence":0.3669201521,
+        "lift":2.0291423176,
+        "n_baskets":193
+    },
+    {
+        "antecedents":"coffee beans, milk 2%",
+        "consequents":"butter",
+        "support":0.0323624595,
+        "confidence":0.3361344538,
+        "lift":2.007063695,
+        "n_baskets":80
+    },
+    {
+        "antecedents":"eggs",
+        "consequents":"milk 2%",
+        "support":0.0396440129,
+        "confidence":0.35,
+        "lift":1.93125,
+        "n_baskets":98
+    },
+    {
+        "antecedents":"butter, eggs",
+        "consequents":"coffee beans",
+        "support":0.0202265372,
+        "confidence":0.4098360656,
+        "lift":1.926073677,
+        "n_baskets":50
+    },
+    {
+        "antecedents":"eggs, white bread",
+        "consequents":"coffee beans",
+        "support":0.0238673139,
+        "confidence":0.4097222222,
+        "lift":1.9255386565,
+        "n_baskets":59
+    },
+    {
+        "antecedents":"croissant",
+        "consequents":"milk 2%",
+        "support":0.0335760518,
+        "confidence":0.3387755102,
+        "lift":1.8693148688,
+        "n_baskets":83
+    },
+    {
+        "antecedents":"butter",
+        "consequents":"coffee beans",
+        "support":0.0639158576,
+        "confidence":0.3816425121,
+        "lift":1.7935746955,
+        "n_baskets":158
+    },
+    {
+        "antecedents":"coffee beans",
+        "consequents":"butter",
+        "support":0.0639158576,
+        "confidence":0.3003802281,
+        "lift":1.7935746955,
+        "n_baskets":158
+    },
+    {
+        "antecedents":"strawberry jam",
+        "consequents":"coffee beans",
+        "support":0.0497572816,
+        "confidence":0.3586005831,
+        "lift":1.6852863905,
+        "n_baskets":123
+    },
+    {
+        "antecedents":"eggs",
+        "consequents":"coffee beans",
+        "support":0.0339805825,
+        "confidence":0.3,
+        "lift":1.4098859316,
+        "n_baskets":84
+    }
+]
